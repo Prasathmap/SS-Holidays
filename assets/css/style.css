@@ -536,7 +536,52 @@ ul {
     max-width: 1370px;
   }
 }
+.float {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	color: #FFF;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 45px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation: bounce 1.5s infinite;
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+.float:hover {
+	transform: scale(1.1);
+}
 
+/* WhatsApp (Right) */
+.whatsapp {
+	right: 40px;
+	background-color: #25d366;
+}
+
+/* Phone (Left) */
+.phone {
+	left: 40px;
+	background-color: #34b7f1;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-10px);
+	}
+	60% {
+		transform: translateY(-5px);
+	}
+}
 .egns-preloader {
   position: fixed !important;
   z-index: 99999;
@@ -4956,7 +5001,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 15px;
+  gap: 5px;
 }
 @media (max-width: 576px) {
   .right-sidebar-menu .sidebar-bottom {
@@ -6800,7 +6845,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   }
 }
 .home1-destination-section .destination-banner {
-  background-image: url(../img/home1/destination-banner-bg.png);
+  background-image: url(../img/Home/destination-banner-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
@@ -6876,7 +6921,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   position: relative;
 }
 .franctional-slider-section .slider-content-wrapper {
-  background-image: url(../img/home1/facility-content-bg.png), linear-gradient(180deg, #f9f4f0 0%, #f9f4f0 100%);
+  background-image: url(../img/Home/facility-content-bg.png), linear-gradient(180deg, #f9f4f0 0%, #f9f4f0 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 135px;
@@ -7424,7 +7469,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   10.Home1 Feature Card section
 ========================================*/
 .feature-card {
-  background-image: url(../img/home1/feature-card-bg1.png);
+  background-image: url(../img/Home/feature-card-bg1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -12329,7 +12374,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   position: relative;
 }
 .home2-about-section .about-img-wrap .about-img {
-  -webkit-mask-image: url(../img/home2/home2-about-img-bg-vector.png);
+  -webkit-mask-image: url(../img/Home/about-2.png);
   -webkit-mask-size: cover;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
@@ -17065,7 +17110,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   }
 }
 .home4-banner2-area .home4-banner2-wrapper {
-  background-image: url(../img/home4/home4-banner2-bg.png), linear-gradient(180deg, #1d231f 0%, #1d231f 100%);
+  background-image: url(../img/Home/banner-3.png), linear-gradient(180deg, #1d231f 0%, #1d231f 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 0 0 50px;
@@ -22229,7 +22274,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   color: var(--primary-color1);
 }
 .breadcrumb-section .banner-content .breadcrumb-list li::before {
-  content: url(../img/innerpage/icon/arrow.svg);
+  content: url(../img/Home/Icons/arrow.svg);
   position: absolute;
   left: 0;
   top: 50%;
