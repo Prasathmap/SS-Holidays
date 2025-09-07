@@ -1,7 +1,5 @@
 <!doctype html>
 <html lang="en">
-
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -18,6 +16,7 @@
     <link href="assets/css/animate.min.css" rel="stylesheet">
     <!-- FancyBox CSS -->
     <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- Fontawesome CSS -->
     <link href="assets/css/fontawesome.min.css" rel="stylesheet">
@@ -60,7 +59,17 @@
             </div>
         </div>
     </div>
-    
+    <!-- WhatsApp Button -->
+<a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." 
+   class="float whatsapp" target="_blank">
+   <i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<!-- Phone Button (Left Side) -->
+<a href="tel:+916379025758" class="float phone" target="_blank">
+   <i class="fa fa-phone my-float"></i>
+</a>
+
     <div class="top-bar style-2">
         <div class="topbar-left">
             <a href="https://www.tripadvisor.com/" class="rating-area">
@@ -120,8 +129,14 @@
             </div>
             <ul class="menu-list">
                 <li> <a href="index.html" >Home</a> </li>
-                <li> <a href="about.html" >About</a> </li>
-                <li> <a href="tour.html" >Tour Packages</a> </li>
+                <li> <a href="about.html" >About US</a> </li>
+                <li class="menu-item-has-children active">
+                    <a href="transport.html" class="drop-down">Package</a><i class="bi bi-plus dropdown-icon"></i>
+                    <ul class="sub-menu">
+                        <li><a href="tour.html">Tour</a></li>
+                        <li><a href="transport.html">Transport</a></li>
+                    </ul>
+                </li>
                 <li> <a href="services.html" >Services</a> </li>
                 <li> <a href="contact.html">Contact</a> </li>
 
@@ -170,7 +185,7 @@
         </div>
     </header>
     <!-- End header section -->
-    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(assets/img/innerpage/inner-banner-bg.png);">  
+    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(assets/img/Home/inner-banner-bg.png);">  
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
@@ -193,14 +208,14 @@
                 <div class="col-lg-4">
                     <div class="banner-and-inquiry-form">
                         <div class="banner2-card four">
-                            <img src="assets/img/home1/banner2-card-img2.png" alt="">
+                            <img src="assets/img/Home/Offer-4.png" alt="">
                             <div class="banner2-content-wrap">
                                 <div class="banner2-content">
                                     <span>Savings worldwide</span>
                                     <h3>50% Off</h3>
                                     <p>For Your First Book</p>
                                 </div>
-                                <a href="package-grid.html" class="primary-btn1">Book Now</a>
+                                <a href="#" class="primary-btn1">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -224,8 +239,7 @@
                                   </h2>
                                   <div id="travelcollapseOne" class="accordion-collapse collapse show" aria-labelledby="travelheadingOne" data-bs-parent="#accordionTravel">
                                     <div class="accordion-body">
-                                        Aptent taciti sociosqu ad litora torquent per conubia nostra, per inci only Integer purus onthis felis non aliquam.Mauris nec just vitae ann auctor tol euismod sit amet non ipsul growing this.
-                                    </div>
+                                        You can easily book a trip by selecting your preferred destination, travel dates, and package. Once you choose, follow the simple checkout process to confirm your booking online.
                                   </div>
                                 </div>
                                 <div class="accordion-item">
@@ -236,9 +250,7 @@
                                   </h2>
                                   <div id="travelcollapseTwo" class="accordion-collapse collapse" aria-labelledby="travelheadingTwo" data-bs-parent="#accordionTravel">
                                     <div class="accordion-body">
-                                        Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only Integer purus onthis
-                                        placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsul growing this 
-                                        Praesent commodo at massa eget suscipit. Utani vitae enim velit.
+                                        We accept all major credit/debit cards, net banking, UPI, PayPal, and secure online wallets.
                                     </div>
                                   </div>
                                 </div>
@@ -250,9 +262,8 @@
                                   </h2>
                                   <div id="travelcollapseThree" class="accordion-collapse collapse" aria-labelledby="travelheadingThree" data-bs-parent="#accordionTravel">
                                     <div class="accordion-body">
-                                        Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only Integer purus onthis
-                                        placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsul growing this 
-                                        Praesent commodo at massa eget suscipit. Utani vitae enim velit.
+                                        Yes, depending on the hotel, or package policy, you can modify dates, destinations, or upgrade services. Additional charges may apply.
+                                </div>
                                     </div>
                                   </div>
                                 </div>
@@ -264,9 +275,7 @@
                                   </h2>
                                   <div id="travelcollapseFour" class="accordion-collapse collapse" aria-labelledby="travelheadingFour" data-bs-parent="#accordionTravel">
                                     <div class="accordion-body">
-                                        Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only Integer purus onthis
-                                        placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsul growing this 
-                                        Praesent commodo at massa eget suscipit. Utani vitae enim velit.
+                                        Cancellation terms vary by package. Refunds are processed according to airline/hotel policies. Full details are available during booking and in your confirmation email.
                                     </div>
                                   </div>
                                 </div> 
@@ -278,9 +287,7 @@
                                   </h2>
                                   <div id="travelcollapseFive" class="accordion-collapse collapse" aria-labelledby="travelheadingFive" data-bs-parent="#accordionTravel">
                                     <div class="accordion-body">
-                                        Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only Integer purus onthis
-                                        placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsul growing this 
-                                        Praesent commodo at massa eget suscipit. Utani vitae enim velit.
+                                    Absolutely! We offer customized group and corporate packages at special rates. Please contact our support team for tailored options.
                                     </div>
                                   </div>
                                 </div> 
@@ -305,63 +312,54 @@
                                   </h2>
                                   <div id="tripcollapseOne" class="accordion-collapse collapse show" aria-labelledby="tripheadingOne" data-bs-parent="#accordionTravel2">
                                     <div class="accordion-body">
-                                        Aptent taciti sociosqu ad litora torquent per conubia nostra, per inci only Integer purus onthis felis non aliquam.Mauris nec just vitae ann auctor tol euismod sit amet non ipsul growing this.
-                                    </div>
+                                        Our website uses SSL encryption and trusted payment gateways to ensure your transactions are 100% secure.                                    </div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="tripheadingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tripcollapseTwo" aria-expanded="false" aria-controls="tripcollapseTwo">
-                                        02. Are there any additional fees or surcharges?
+                                        02. Can I request special meals or seat preferences?
                                     </button>
                                   </h2>
                                   <div id="tripcollapseTwo" class="accordion-collapse collapse" aria-labelledby="tripheadingTwo" data-bs-parent="#accordionTravel2">
                                     <div class="accordion-body">
-                                        Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only Integer purus onthis
-                                        placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsul growing this 
-                                        Praesent commodo at massa eget suscipit. Utani vitae enim velit.
+                                        Yes, most travel allow us to request special meals (vegetarian, vegan, Jain, etc.) and seat preferences during booking.
                                     </div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="tripheadingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tripcollapseThree" aria-expanded="false" aria-controls="tripcollapseThree">
-                                        03. Can I transfer my reservation to another person?
+                                        03. Do you provide 24/7 emergency support while traveling?
                                     </button>
                                   </h2>
                                   <div id="tripcollapseThree" class="accordion-collapse collapse" aria-labelledby="tripheadingThree" data-bs-parent="#accordionTravel2">
                                     <div class="accordion-body">
-                                        Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only Integer purus onthis
-                                        placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsul growing this 
-                                        Praesent commodo at massa eget suscipit. Utani vitae enim velit.
+                                        Yes, we have a dedicated support team available round the clock to assist travelers in emergencies.
                                     </div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="tripheadingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tripcollapseFour" aria-expanded="false" aria-controls="tripcollapseFour">
-                                        04. Can I request a private tour for my group?
+                                        04. Are your packages suitable for solo travelers?
                                     </button>
                                   </h2>
                                   <div id="tripcollapseFour" class="accordion-collapse collapse" aria-labelledby="tripheadingFour" data-bs-parent="#accordionTravel2">
                                     <div class="accordion-body">
-                                        Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only Integer purus onthis
-                                        placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsul growing this 
-                                        Praesent commodo at massa eget suscipit. Utani vitae enim velit.
+                                        Yes, we have both group tours and solo-friendly packages with safe accommodations and guided experiences.
                                     </div>
                                   </div>
                                 </div> 
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="tripheadingFive">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tripcollapseFive" aria-expanded="false" aria-controls="tripcollapseFive">
-                                        05. Do you offer special rates for group bookings?
+                                        05. Do you arrange special services for senior citizens or differently-abled travelers?
                                     </button>
                                   </h2>
                                   <div id="tripcollapseFive" class="accordion-collapse collapse" aria-labelledby="tripheadingFive" data-bs-parent="#accordionTravel2">
                                     <div class="accordion-body">
-                                        Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only Integer purus onthis
-                                        placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsul growing this 
-                                        Praesent commodo at massa eget suscipit. Utani vitae enim velit.
+                                        Yes, we can arrange wheelchair assistance, senior-friendly tours, and other special services upon request.
                                     </div>
                                   </div>
                                 </div> 
@@ -385,8 +383,8 @@
                        <p>Book Your Tour Package Now.</p>
                        <h1>+91 63790 25758</h1>
 
-                        <img src="assets/img/home1/banner3-vector1.png" alt="" class="vector1">
-                        <img src="assets/img/home1/banner3-vector2.png" alt="" class="vector2">
+                        <img src="assets/img/Home/banner-2.png" alt="" class="vector1">
+                        <img src="assets/img/Home/banner-1.png" alt="" class="vector2">
                     </div>
                 </div>
             </div>
@@ -414,11 +412,11 @@
                                 <h5>Quick Link</h5>
                             </div>
                             <ul class="widget-list">
-                                <li><a href="about.html">About Us</a></li>
+                              <li><a href="about.html">About Us</a></li>
                                 <li><a href="faq.html">FAQ</a></li>
                                 <li><a href="tour.html">Tour Package</a></li>
                                 <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="blog-grid.html">Article</a></li>
+                                <li><a href="transport.html">Transport</a></li>
                             </ul>
                         </div>
                     </div>
@@ -474,11 +472,11 @@
                                 </div>
                                 <div class="icons">
                                     <ul>
-                                        <li><img src="assets/img/home1/icon/visa-logo.svg" alt=""></li>
-                                        <li><img src="assets/img/home1/icon/stripe-logo.svg" alt=""></li>
-                                        <li><img src="assets/img/home1/icon/paypal-logo.svg" alt=""></li>
-                                        <li><img src="assets/img/home1/icon/woo-logo.svg" alt=""></li>
-                                        <li><img src="assets/img/home1/icon/skrill-logo.svg" alt=""></li>
+                                        <li><img src="assets/img/Home/Icons/visa-logo.svg" alt=""></li>
+                                        <li><img src="assets/img/Home/Icons/upi-logo.svg" alt=""></li>
+                                        <li><img src="assets/img/Home/Icons/google-pay.svg" alt=""></li>
+                                        <li><img src="assets/img/Home/Icons/paytm.svg" alt=""></li>
+                                        <li><img src="assets/img/Home/Icons/phone-pe.svg" alt=""></li>
                                     </ul>
                                 </div>
                             </div>

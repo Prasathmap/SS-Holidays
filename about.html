@@ -16,6 +16,7 @@
     <link href="assets/css/animate.min.css" rel="stylesheet">
     <!-- FancyBox CSS -->
     <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- Fontawesome CSS -->
     <link href="assets/css/fontawesome.min.css" rel="stylesheet">
@@ -58,6 +59,16 @@
             </div>
         </div>
     </div>
+<!-- WhatsApp Button -->
+<a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." 
+   class="float whatsapp" target="_blank">
+   <i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<!-- Phone Button (Left Side) -->
+<a href="tel:+916379025758" class="float phone" target="_blank">
+   <i class="fa fa-phone my-float"></i>
+</a>
 
     <div class="top-bar style-2">
         <div class="topbar-left two">
@@ -106,8 +117,14 @@
             </div>
             <ul class="menu-list">
                <li> <a href="index.html" >Home</a> </li>
-                <li> <a href="about.html" >About</a> </li>
-                <li> <a href="tour.html" >Tour Packages</a> </li>
+                <li> <a href="about.html" >About Us</a> </li>
+                  <li class="menu-item-has-children active">
+                    <a href="transport.html" class="drop-down">Package</a><i class="bi bi-plus dropdown-icon"></i>
+                    <ul class="sub-menu">
+                        <li><a href="tour.html">Tour</a></li>
+                        <li><a href="transport.html">Transport</a></li>
+                    </ul>
+                </li>
                 <li> <a href="services.html" >Services</a> </li>
                 <li> <a href="contact.html">Contact</a> </li>
 
@@ -157,7 +174,7 @@
     </header>
     <!-- End header section -->
 
-    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(assets/img/innerpage/inner-banner-bg.png);">  
+    <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(assets/img/Home/inner-banner-bg.png);">  
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
@@ -190,7 +207,7 @@
                             <div class="col-md-6">
                                 <div class="facility-card">
                                     <div class="icon">
-                                        <img src="assets/img/home2/icon/facility-card-icon1.svg" alt="">
+                                        <img src="assets/img/Home/Icons/facility-card-icon1.svg" alt="">
                                     </div>
                                     <div class="content">
                                         <h6>Safety first <br>always</h6>
@@ -200,7 +217,7 @@
                             <div class="col-md-6">
                                 <div class="facility-card two">
                                     <div class="icon">
-                                        <img src="assets/img/home2/icon/facility-card-icon2.svg" alt="">
+                                        <img src="assets/img/Home/Icons/facility-card-icon2.svg" alt="">
                                     </div>
                                     <div class="content">
                                         <h6>Trusted travel <br>guide</h6>
@@ -210,7 +227,7 @@
                             <div class="col-md-6">
                                 <div class="facility-card two">
                                     <div class="icon">
-                                        <img src="assets/img/home2/icon/facility-card-icon3.svg" alt="">
+                                        <img src="assets/img/Home/Icons/facility-card-icon3.svg" alt="">
                                     </div>
                                     <div class="content">
                                         <h6>Expertise and <br> Experience</h6>
@@ -220,7 +237,7 @@
                             <div class="col-md-6">
                                 <div class="facility-card">
                                     <div class="icon">
-                                        <img src="assets/img/home2/icon/facility-card-icon3.svg" alt="">
+                                        <img src="assets/img/Home/Icons/facility-card-icon3.svg" alt="">
                                     </div>
                                     <div class="content">
                                         <h6>Expertise and <br> Experience</h6>
@@ -250,13 +267,13 @@
                 <div class="col-lg-6 d-flex align-items-center">
                     <div class="about-img-wrap">
                         <div class="about-img">
-                            <img src="assets/img/home2/home2-about-img1.png" alt="" class="about-img">
+                            <img src="assets/img/Home/about-1.png" alt="" class="about-img">
                         </div>
                         <div class="experience">
                             <h3>12</h3>
                             <p>Years of experience</p>
                         </div>
-                        <img src="assets/img/home1/vector/plane-vector.svg" alt="" class="vector">
+                        <img src="assets/img/Home/Icons/plane-vector.svg" alt="" class="vector">
                     </div>
                 </div>
             </div>
@@ -348,10 +365,10 @@
                 <div class="col-lg-12 d-flex justify-content-center">
                     <div class="tripadvisor-review">
                         <strong>Excellent!</strong>
-                        <img src="assets/img/home2/icon/tripadvisor-star.svg" alt="">
-                        <p><strong>5.0</strong> Rating out of <strong>5.0</strong> based on <a href="https://www.tripadvisor.com/"><strong>245354</strong>
-                                reviews</a></p>
-                        <img src="assets/img/home2/icon/tripadvisor-logo.svg" alt="">
+                        <img src="assets/img/Home/Icons/tripadvisor-star.svg" alt="">
+                        <p><strong>5.0</strong> Rating out of <strong>5.0</strong> based on <a href="#"><strong>1456</strong>
+                                reviews</a></p> 
+                           <p>Google Reviews</p>
                     </div>
                 </div>
             </div>
@@ -385,7 +402,7 @@
                         </div>
                         <div class="feature-card-content">
                             <h6>Worldwide Coverage</h6>
-                            <p>Curabitur convallis enim atnora ullamcorper sagittis.</p>
+                            <p>Explore destinations across the globe with trusted partners everywhere.</p>
                         </div>
                     </div>
                 </div>
@@ -401,7 +418,7 @@
                         </div>
                         <div class="feature-card-content">
                             <h6>Competitive Pricing</h6>
-                            <p>Burabitur convallis enim atnora. Morbi nug scelerisque for thana.</p>
+                            <p>Get the best value for your money without compromising on quality.</p>
                         </div>
                     </div>
                 </div>
@@ -423,7 +440,7 @@
                         </div>
                         <div class="feature-card-content">
                             <h6>Fast Booking</h6>
-                            <p>Fermentum eitorx quis maximum Etiam urnan posuere convallis.</p>
+                            <p>Quick and hassle-free reservation system at your fingertips.</p>
                         </div>
                     </div>
                 </div>
@@ -439,7 +456,7 @@
                         </div>
                         <div class="feature-card-content">
                             <h6>Guided Tours</h6>
-                            <p>Pellentesque venenatis egestasoi diam Proin velgorat elit porttitor metus convallis.</p>
+                            <p>Expert-led tours that bring destinations to life with stories and insights.</p>
                         </div>
                     </div>
                 </div>
@@ -461,7 +478,7 @@
                         </div>
                         <div class="feature-card-content">
                             <h6>Best Support 24/7</h6>
-                            <p>Sed venenatis mauris nec nulla euismod, accounv varius lectus viverra oncen.</p>
+                            <p>Round-the-clock assistance, whenever and wherever you need it.</p>
                         </div>
                     </div>
                 </div>
@@ -489,7 +506,7 @@
                         </div>
                         <div class="feature-card-content">
                             <h6>Ultimate flexibility</h6>
-                            <p>Duis leo sapien, lacinia utorrent efficitur utom suscipit quis nulla Sed auctor eu</p>
+                            <p>travel plans designed around you, with easy changes and custom options.</p>
                         </div>
                     </div>
                 </div>
@@ -501,39 +518,39 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="banner4-card">
-                                        <img src="assets/img/home2/banner4-card-img1.png" alt="">
+                                        <img src="assets/img/Home/banner-6.png" alt="">
                                         <div class="banner4-content-wrapper">
                                             <div class="banner4-content">
                                                 <span>Savings worldwide</span>
                                                 <h3>20% Off</h3>
-                                                <a href="package-grid.html" class="text">Discover Great Deal</a>
-                                                <a href="package-grid.html" class="primary-btn1">View This Trip</a>
+                                                <a href="#" class="text">Discover Great Deal</a>
+                                                <a href="#" class="primary-btn1">View This Trip</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="banner4-card two">
-                                        <img src="assets/img/home2/banner4-card-img2.png" alt="">
+                                        <img src="assets/img/Home/banner-7.png" alt="">
                                         <div class="banner4-content-wrapper">
                                             <div class="banner4-content">
                                                 <span>Savings worldwide</span>
                                                 <h3>20% Off</h3>
-                                                <a href="package-grid.html" class="text">Discover Great Deal</a>
-                                                <a href="package-grid.html" class="primary-btn1">View This Trip</a>
+                                                <a href="#" class="text">Discover Great Deal</a>
+                                                <a href="#" class="primary-btn1">View This Trip</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="banner4-card three ">
-                                        <img src="assets/img/home2/banner4-card-img3.png" alt="">
+                                        <img src="assets/img/Home/banner-8.png" alt="">
                                         <div class="banner4-content-wrapper">
                                             <div class="banner4-content">
                                                 <span>Savings worldwide</span>
                                                 <h3>20% Off</h3>
-                                                <a href="package-grid.html" class="text">Discover Great Deal</a>
-                                                <a href="package-grid.html" class="primary-btn1">View This Trip</a>
+                                                <a href="#" class="text">Discover Great Deal</a>
+                                                <a href="#" class="primary-btn1">View This Trip</a>
                                             </div>
                                         </div>
                                     </div>
@@ -546,8 +563,8 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="package-card3 style-2">
-                                        <a href="package-details.html" class="package-card-img">
-                                            <img src="assets/img/home2/package-card3-img4.png" alt="">
+                                        <a href="tour.html" class="package-card-img">
+                                            <img src="assets/img/Home/package-1.png" alt="">
                                             <div class="eg-tag">
                                                 <span>Featured</span>
                                             </div>
@@ -564,7 +581,7 @@
                                                     </ul>
                                                     <span>(28 Review)</span>
                                                 </div>
-                                                <h5><a href="package-details.html">A Journey through Historical and Culture.</a></h5>
+                                                <h5><a href="#">A Journey through Historical and Culture.</a></h5>
                                                 <ul class="feature-list">
                                                     <li>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
@@ -590,25 +607,15 @@
                                                         </svg>
                                                         6 Location
                                                     </li>
-                                                    <li>
-                                                        <svg class="with-stroke" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
-                                                            <g clip-path="url(#clip0_1225_55)">
-                                                                <path d="M2.07812 4.19617e-05V14" stroke-miterlimit="10"/>
-                                                                <path
-                                                                    d="M2.07812 1.23049C2.07812 1.23049 3.30859 2.0508 4.53906 2.0508C6.50515 2.0508 7.49482 0.41018 9.46092 0.41018C10.6914 0.41018 11.9218 1.23049 11.9218 1.23049V7.79297C11.9218 7.79297 10.6914 6.97266 9.46092 6.97266C7.49482 6.97266 6.50515 8.61328 4.53906 8.61328C3.30859 8.61328 2.07812 7.79297 2.07812 7.79297"
-                                                                    stroke-miterlimit="10"/>
-                                                            </g>
-                                                        </svg>
-                                                        2 Countries
-                                                    </li>
+                                                    
                                                 </ul>
                                             </div>
                                             <div class="card-content-bottom">
                                                 <div class="price-area">
                                                     <span>Starting Form:</span>
-                                                    <h6><sub>$</sub>70.00 <span>Per Person</span></h6>
+                                                    <h6><sub>₹</sub>700 <span>Per Person</span></h6>
                                                 </div>
-                                                <a href="package-details.html" class="primary-btn2">Book a Trip
+                                                <a href="#" class="primary-btn2">Book a Trip
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                                         <path
                                                             d="M8.15624 10.2261L7.70276 12.3534L5.60722 18L6.85097 17.7928L12.6612 10.1948C13.4812 10.1662 14.2764 10.1222 14.9674 10.054C18.1643 9.73783 17.9985 8.99997 17.9985 8.99997C17.9985 8.99997 18.1643 8.26211 14.9674 7.94594C14.2764 7.87745 13.4811 7.8335 12.6611 7.80518L6.851 0.206972L5.60722 -5.41705e-07L7.70276 5.64663L8.15624 7.77386C7.0917 7.78979 6.37132 7.81403 6.37132 7.81403C6.37132 7.81403 4.90278 7.84793 2.63059 8.35988L0.778036 5.79016L0.000253424 5.79016L0.554115 8.91458C0.454429 8.94514 0.454429 9.05483 0.554115 9.08539L0.000253144 12.2098L0.778036 12.2098L2.63059 9.64035C4.90278 10.1523 6.37132 10.1857 6.37132 10.1857C6.37132 10.1857 7.0917 10.2102 8.15624 10.2261Z"/>
@@ -623,7 +630,7 @@
                                 <div class="swiper-slide">
                                     <div class="package-card3 style-2">
                                         <a href="package-details.html" class="package-card-img">
-                                            <img src="assets/img/home2/package-card3-img5.png" alt="">
+                                            <img src="assets/img/Home/package-2.png" alt="">
                                             <div class="eg-tag">
                                                 <span>Featured</span>
                                             </div>
@@ -666,23 +673,12 @@
                                                         </svg>
                                                         6 Location
                                                     </li>
-                                                    <li>
-                                                        <svg class="with-stroke" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
-                                                            <g clip-path="url(#clip0_1225_55)">
-                                                                <path d="M2.07812 4.19617e-05V14" stroke-miterlimit="10"/>
-                                                                <path
-                                                                    d="M2.07812 1.23049C2.07812 1.23049 3.30859 2.0508 4.53906 2.0508C6.50515 2.0508 7.49482 0.41018 9.46092 0.41018C10.6914 0.41018 11.9218 1.23049 11.9218 1.23049V7.79297C11.9218 7.79297 10.6914 6.97266 9.46092 6.97266C7.49482 6.97266 6.50515 8.61328 4.53906 8.61328C3.30859 8.61328 2.07812 7.79297 2.07812 7.79297"
-                                                                    stroke-miterlimit="10"/>
-                                                            </g>
-                                                        </svg>
-                                                        2 Countries
-                                                    </li>
                                                 </ul>
                                             </div>
                                             <div class="card-content-bottom">
                                                 <div class="price-area">
                                                     <span>Starting Form:</span>
-                                                    <h6><sub>$</sub>70.00 <span>Per Person</span></h6>
+                                                    <h6><sub>₹</sub>700 <span>Per Person</span></h6>
                                                 </div>
                                                 <a href="package-details.html" class="primary-btn2">Book a Trip
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -698,8 +694,8 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="package-card3 style-2">
-                                        <a href="package-details.html" class="package-card-img">
-                                            <img src="assets/img/home2/package-card3-img6.png" alt="">
+                                        <a href="#" class="package-card-img">
+                                            <img src="assets/img/Home/package-3.png" alt="">
                                             <div class="eg-tag">
                                                 <span>Featured</span>
                                             </div>
@@ -716,7 +712,7 @@
                                                     </ul>
                                                     <span>(28 Review)</span>
                                                 </div>
-                                                <h5><a href="package-details.html">Proin congue gravida eratqus convallis sem.</a></h5>
+                                                <h5><a href="#">Proin congue gravida eratqus convallis sem.</a></h5>
                                                 <ul class="feature-list">
                                                     <li>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
@@ -742,23 +738,12 @@
                                                         </svg>
                                                         3 Location
                                                     </li>
-                                                    <li>
-                                                        <svg class="with-stroke" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
-                                                            <g clip-path="url(#clip0_1225_55)">
-                                                                <path d="M2.07812 4.19617e-05V14" stroke-miterlimit="10"/>
-                                                                <path
-                                                                    d="M2.07812 1.23049C2.07812 1.23049 3.30859 2.0508 4.53906 2.0508C6.50515 2.0508 7.49482 0.41018 9.46092 0.41018C10.6914 0.41018 11.9218 1.23049 11.9218 1.23049V7.79297C11.9218 7.79297 10.6914 6.97266 9.46092 6.97266C7.49482 6.97266 6.50515 8.61328 4.53906 8.61328C3.30859 8.61328 2.07812 7.79297 2.07812 7.79297"
-                                                                    stroke-miterlimit="10"/>
-                                                            </g>
-                                                        </svg>
-                                                        2 Countries
-                                                    </li>
                                                 </ul>
                                             </div>
                                             <div class="card-content-bottom">
                                                 <div class="price-area">
                                                     <span>Starting Form:</span>
-                                                    <h6><sub>$</sub>50.00 <span>Per Person</span></h6>
+                                                    <h6><sub>₹</sub>500 <span>Per Person</span></h6>
                                                 </div>
                                                 <a href="package-details.html" class="primary-btn2">Book a Trip
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -805,13 +790,13 @@
                     <div class="swiper activities-img-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="slide-img" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/activities-slider-img1.png);"></div>
+                                <div class="slide-img" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Home/activities-slider-1.png);"></div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="slide-img" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/activities-slider-img2.png);"></div>
+                                <div class="slide-img" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Home/activities-slider-2.png);"></div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="slide-img" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/home2/activities-slider-img1.png);"></div>
+                                <div class="slide-img" style="background-image: linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Home/activities-slider-1.png);"></div>
                             </div>
                         </div>
                     </div>
@@ -939,7 +924,7 @@
                                     <div class="tab-pane fade show active" id="outdoor" role="tabpanel" aria-labelledby="outdoor-tab">
                                         <div class="tab-content-wrap">
                                             <h2>Get Out Latest Tour & Explore The Worldwide Tour.</h2>
-                                            <p>Nunc volutpat sagittis cursus. Praesent sed dolor pellentesque, consectetur velit sit amet, pharetra ipsum. Fusce eu ultrices tortor. Praesent vehicula commodo purus at vulputate.</p>
+                                            <p>Discover breathtaking destinations and thrilling adventures across the globe. Whether you seek adrenaline, nature, or cultural journeys, we bring you unforgettable travel experiences</p>
                                             <ul>
                                                 <li>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9">
@@ -988,7 +973,7 @@
                                     <div class="tab-pane fade" id="cultural" role="tabpanel" aria-labelledby="cultural-tab">
                                         <div class=" tab-content-wrap">
                                             <h2>Embark on the most recent global exploration journey.</h2>
-                                            <p>Nunc volutpat sagittis cursus. Praesent sed dolor pellentesque, consectetur velit sit amet, pharetra ipsum. Fusce eu ultrices tortor. Praesent vehicula commodo purus at vulputate.</p>
+                                            <p>Step into a world of adventure where every journey leads to discovery. From breathtaking landscapes to adrenaline-pumping experiences, we bring you tours that blend excitement with unforgettable memories.</p>
                                             <ul>
                                                 <li>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9">
@@ -1037,7 +1022,7 @@
                                     <div class="tab-pane fade" id="cuisine" role="tabpanel" aria-labelledby="cuisine-tab">
                                         <div class=" tab-content-wrap">
                                             <h2>Initiate the newest worldwide excursion and discover.</h2>
-                                            <p>Nunc volutpat sagittis cursus. Praesent sed dolor pellentesque, consectetur velit sit amet, pharetra ipsum. Fusce eu ultrices tortor. Praesent vehicula commodo purus at vulputate.</p>
+                                            <p>Step into a journey filled with adventure, discovery, and unforgettable moments. Explore breathtaking landscapes, embrace thrilling experiences, and create stories that last a lifetime.</p>
                                             <ul>
                                                 <li>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9">
@@ -1086,7 +1071,7 @@
                                     <div class="tab-pane fade" id="wildlife" role="tabpanel" aria-labelledby="wildlife-tab">
                                         <div class=" tab-content-wrap">
                                             <h2>Set off on the latest global adventure and travel.</h2>
-                                            <p>Nunc volutpat sagittis cursus. Praesent sed dolor pellentesque, consectetur velit sit amet, pharetra ipsum. Fusce eu ultrices tortor. Praesent vehicula commodo purus at vulputate.</p>
+                                            <p>Unleash your spirit of discovery and experience journeys that inspire. From the thrill of the wild to the serenity of nature, every adventure brings you closer to unforgettable memories.</p>
                                             <ul>
                                                 <li>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9">
@@ -1135,7 +1120,7 @@
                                     <div class="tab-pane fade" id="event" role="tabpanel" aria-labelledby="event-tab">
                                         <div class=" tab-content-wrap">
                                             <h2>Begin the most current worldwide trip and tour.</h2>
-                                            <p>Nunc volutpat sagittis cursus. Praesent sed dolor pellentesque, consectetur velit sit amet, pharetra ipsum. Fusce eu ultrices tortor. Praesent vehicula commodo purus at vulputate.</p>
+                                            <p>Step into a world of discovery where every destination brings new adventures. Whether you seek thrilling challenges or peaceful escapes, our tours are designed to inspire and excite.</p>
                                             <ul>
                                                 <li>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9">
@@ -1204,8 +1189,8 @@
                        <p>Book Your Tour Package Now.</p>
                        <h1>+91 63790 25758</h1>
 
-                        <img src="assets/img/home1/banner3-vector1.png" alt="" class="vector1">
-                        <img src="assets/img/home1/banner3-vector2.png" alt="" class="vector2">
+                        <img src="assets/img/Home/banner-2.png" alt="" class="vector1">
+                        <img src="assets/img/Home/banner-1.png" alt="" class="vector2">
                     </div>
                 </div>
             </div>
@@ -1237,7 +1222,7 @@
                                 <li><a href="faq.html">FAQ</a></li>
                                 <li><a href="tour.html">Tour Package</a></li>
                                 <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="blog-grid.html">Article</a></li>
+                                <li><a href="transport.html">Transport</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1293,11 +1278,11 @@
                                 </div>
                                 <div class="icons">
                                     <ul>
-                                        <li><img src="assets/img/home1/icon/visa-logo.svg" alt=""></li>
-                                        <li><img src="assets/img/home1/icon/stripe-logo.svg" alt=""></li>
-                                        <li><img src="assets/img/home1/icon/paypal-logo.svg" alt=""></li>
-                                        <li><img src="assets/img/home1/icon/woo-logo.svg" alt=""></li>
-                                        <li><img src="assets/img/home1/icon/skrill-logo.svg" alt=""></li>
+                                        <li><img src="assets/img/Home/Icons/visa-logo.svg" alt=""></li>
+                                        <li><img src="assets/img/Home/Icons/upi-logo.svg" alt=""></li>
+                                        <li><img src="assets/img/Home/Icons/google-pay.svg" alt=""></li>
+                                        <li><img src="assets/img/Home/Icons/paytm.svg" alt=""></li>
+                                        <li><img src="assets/img/Home/Icons/phone-pe.svg" alt=""></li>
                                     </ul>
                                 </div>
                             </div>
